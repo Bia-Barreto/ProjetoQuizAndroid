@@ -21,25 +21,25 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <RadioButton
-            android:id="@+id/btn_a"
+            android:id="@+id/rb_a"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="RadioButton" />
 
         <RadioButton
-            android:id="@+id/btn_b"
+            android:id="@+id/rb_b"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="RadioButton" />
 
         <RadioButton
-            android:id="@+id/btn_c"
+            android:id="@+id/rb_c"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="RadioButton" />
 
         <RadioButton
-            android:id="@+id/btn_d"
+            android:id="@+id/rb_d"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="RadioButton" />
@@ -59,4 +59,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rdg_principal"
         app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/txv_pergunta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="178dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginBottom="73dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/rdg_principal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
